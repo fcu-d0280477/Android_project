@@ -67,10 +67,10 @@
             android:id="@+id/textView11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignStart="@+id/textView10"
-            android:layout_alignTop="@+id/button10"
-            android:layout_marginTop="85dp"
-            android:text="結果:" />
+            android:layout_below="@+id/button10"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="39dp"
+            android:text="結果" />
 
         <TextView
             android:id="@+id/textView13"
@@ -79,7 +79,8 @@
             android:layout_alignEnd="@+id/textView11"
             android:layout_below="@+id/textView11"
             android:layout_marginTop="30dp"
-            android:text="診斷" />
+            android:text="診斷"
+            android:layout_alignStart="@+id/textView11" />
 
         <Button
             android:id="@+id/button12"
