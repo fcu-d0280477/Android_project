@@ -42,7 +42,7 @@
             android:layout_alignBottom="@+id/textView8"
             android:layout_centerHorizontal="true"
             android:ems="10"
-            android:hint="公分"
+            android:hint="cm"
             android:inputType="number" />
 
         <TextView
