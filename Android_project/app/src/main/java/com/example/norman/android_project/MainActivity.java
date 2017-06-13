@@ -200,13 +200,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-       Button button3 = (Button)findViewById(R.id.button3);
-        button3.setOnClickListener(new Button.OnClickListener(){
-            public void onClick(View v){
 
-                jumpToLayoutLaw();
-
-            }
 
         });
 
