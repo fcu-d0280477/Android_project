@@ -212,14 +212,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        Button button6 = (Button)findViewById(R.id.button6);
-        button6.setOnClickListener(new Button.OnClickListener(){
-            public void onClick(View v){
-
-                jumpToLayoutSelect();
-
-            }
-
+        
 
         });
 
