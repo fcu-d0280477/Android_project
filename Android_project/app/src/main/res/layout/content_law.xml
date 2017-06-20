@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.norman.android_project.law"
-    tools:showIn="@layout/activity_law">
+    tools:context="com.example.norman.android_project.website"
+    tools:showIn="@layout/activity_website">
 
     <RelativeLayout
         android:layout_width="368dp"
@@ -14,23 +14,29 @@
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="8dp">
 
-        <Button
-            android:id="@+id/button7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="59dp"
-            android:text="返回" />
-
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="14dp"
-            android:layout_marginTop="21dp"
-            android:text="法律知識" />
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="17dp"
+            android:text="相關網站" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <WebView
+            android:id="@+id/webview1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true" />
+
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

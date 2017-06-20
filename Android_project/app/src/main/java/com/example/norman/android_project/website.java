@@ -38,7 +38,7 @@ public class website extends AppCompatActivity {
 
     WebView WebView1 = (WebView) findViewById(R.id.webview);
         WebView1.getSettings().setJavaScriptEnabled(true);
-        WebView1.loadUrl("https://www.google.com.tw/?gws_rd=ssl");
+        WebView1.loadUrl("http://www.fda.gov.tw/TC/news.aspx?cid=5049&cchk=55abc933-3e57-48db-afff-a8a4cc1e4ae0");
 
 
 

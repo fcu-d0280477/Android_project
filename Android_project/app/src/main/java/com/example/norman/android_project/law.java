@@ -7,6 +7,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.webkit.WebView;
 import android.widget.Button;
 
 public class law extends AppCompatActivity {
@@ -31,7 +32,9 @@ public class law extends AppCompatActivity {
             }
         });
 
-
+        WebView WebView1 = (WebView) findViewById(R.id.webview1);
+        WebView1.getSettings().setJavaScriptEnabled(true);
+        WebView1.loadUrl("http://law.moj.gov.tw/LawClass/LawOldVer_Vaild.aspx?PCODE=L0040001");
 
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
